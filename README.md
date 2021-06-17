@@ -87,4 +87,14 @@ gcloud config set proxy/address 127.0.0.0
 gcloud config set proxy/port 8080
 ```
 
+### Using GCP CLIs (e.g. gsutil, bq, and gcloud)
+#### see the credentiated account
+```shell
+gcloud auth list
+```
+#### to set the active account
+```shell
+gcloud config set account `ACCOUNT`
+```
+
 
