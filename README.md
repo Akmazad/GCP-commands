@@ -48,6 +48,18 @@ gcloud config list
 ```shell
 gcloud config list --all
 ```
+#### see all the list of regions
+```shell
+gcloud redis zones list
+```
+This may generate a prompt like
+```
+API [redis.googleapis.com] not enabled on project [897975539982]. 
+Would you like to enable and retry (this will take a few minutes)? 
+(y/N)
+```
+chose ```Y```.
+
 #### change a config settings (e.g. set a region)
 ```shell
 gcloud config set redis/region 
