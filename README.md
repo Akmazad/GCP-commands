@@ -48,6 +48,17 @@ gcloud config list
 ```shell
 gcloud config list --all
 ```
+
+#### list all the projects
+```shell
+gcloud projects list
+```
+
+#### change a config settings (e.g. set a current project to a project, namely 'HelloGCPWorld' with ID as 'hellogcpworld')
+```shell
+gcloud config set project hellogcpworld 
+```
+
 #### see all the list of regions
 ```shell
 gcloud redis zones list
@@ -60,8 +71,20 @@ Would you like to enable and retry (this will take a few minutes)?
 ```
 chose ```Y```.
 
-#### change a config settings (e.g. set a region)
+#### set the zone for the current project
 ```shell
-gcloud config set redis/region 
+gcloud config set compute/zone asia-east1-b
 ```
+#### disable prompt
+```shell
+gcloud config set disable_prompts true
+```
+
+#### set up a proxy (type, address and port)
+```shell
+gcloud config set proxy/type http
+gcloud config set proxy/address 127.0.0.0
+gcloud config set proxy/port 8080
+```
+
 
