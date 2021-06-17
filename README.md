@@ -36,3 +36,20 @@ kubectl
 ```shell
 gcloud init
 ```
+
+## Configuration
+
+### See default configuration setting
+#### compact list
+```shell
+gcloud config list
+```
+#### detailed list
+```shell
+gcloud config list --all
+```
+#### change a config settings (e.g. set a region)
+```shell
+gcloud config set redis/region 
+```
+
