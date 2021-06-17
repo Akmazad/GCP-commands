@@ -96,5 +96,11 @@ gcloud auth list
 ```shell
 gcloud config set account `ACCOUNT`
 ```
-
+#### see any command group under a CLI (e.g. gcloud)
+```shell
+gcloud ai models --help
+```
+```shell
+gcloud ai models
+```
 
