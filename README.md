@@ -1,4 +1,4 @@
-# GCP-commands
+# GCP-commands Essentials for Ubuntu users
 
 ## Installation
 
